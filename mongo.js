@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
 mongoose
-  .connect("mongodb://0.0.0.0:27017/authentication")
+  .connect(
+    "mongodb+srv://john-user17:Sakthi1721@cluster0.xlcyymi.mongodb.net/authentication"
+  )
   .then(() => {
     console.log("mongodb connected");
   })
